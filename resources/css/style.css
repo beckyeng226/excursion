@@ -2,11 +2,13 @@ html {
     background-color: black;
     text-align: center;
     font-family: Verdana;
+    margin: 8px;
+    display: block;
 }
 
 header {   
     font-size: 50px;
-    color: white;  
+    color: white; 
 }
 
 h1 {
