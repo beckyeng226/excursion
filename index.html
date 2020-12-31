@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Excursion Project</title>
+ <!-- Describe this page for search engines -->
+ <meta name="description" content="Excursion Project for Codecademy">
+ <!-- Character set for English and similar languages -->
+ <meta charset="utf-8">
+ <!-- Helps with rendering on mobile devices -->
+ <meta name="viewport" content="width=device-width">
+ <!-- Link to external style sheet -->
+ <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+ <!--<link href="printer_friendly_styles.css" rel="stylesheet" media="print">
+ <link href="narrow_screen_styles.css" rel="stylesheet" media="screen and (max-width:779px)">-->
+</head>
+<body>
+ <script>
+ //Make older browsers aware of new HTML5 layout tags
+ 'header nav aside article footer section figure figcaption'.replace(/\w+/g, function (n) { document.createElement(n) })
+ </script>
+ <!-- Constrain width of layout (optional) -->
+ <div id="wrapper">
+ <!-- Header is catch phrase and link at top of the page -->
+ <header>
+ Discover hidden places in the world around you <br/>
+ <!--Link will go live when product is available, but currently links to this index.html page-->
+ <a class="link" href="https://content.codecademy.com/programs/freelance-one/excursion/index.html#">Download Excursion (Coming Soon!)</a>
+ </header>
+ 
+ <!-- Article is the main content of the page -->
+ <article>
+<!--Image of phone with video playing on screen-->
+<video autoplay muted loop> <!--Set video to play automatically when loaded, will continuously loop, no sound-->
+    <source src="resources/videos/excursion.mp4" type="video/mp4">
+</video>
+
+<h1>Your personal travel guide</h1>
+<p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+<!--Picture of campsite-->
+<img src="resources/images/camp.webp"> 
+<br/>
+<br/>
+<!--Phone image-->
+<img src="resources/images/phone.webp">
+
+<h1>Coming Soon for iPhone and Android</h1>
+<!--Link will go live when product is available, but currently links to this index.html page-->
+<p><a class="link" href="https://content.codecademy.com/programs/freelance-one/excursion/index.html#">Download Excursion (Coming Soon!)</a>
+</p>
+</article>
+ 
+ <!-- Footer at bottom of page with copyright -->
+ <footer>
+ &copy; Excursion
+ </footer>
+ </div><!-- End wrapper (nothing below this except /body and /html) -->
+</body>
+</html>
